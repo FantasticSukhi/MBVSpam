@@ -1,5 +1,5 @@
 """
-    SpamX by RiZoeLX
+    MBVSpam by FantasticSukhi
     Database - Used MonGo DB
 """
 import os
