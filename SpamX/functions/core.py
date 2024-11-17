@@ -16,8 +16,8 @@ devs = [6713994904, 6902636111, 811413470]
 class sudo:
     def __init__(self) -> None:
         self.rank = [1, 2, 3]
-        self.rankNames = ["Mamba", "Krishan", "Godfather", "Akshit"]
-        self.ownName = "Mamba"
+        self.rankNames = ["Lil", "Dev", "Celestia", "Apex"]
+        self.ownName = "God"        
         self.sudos = {}
         self.sudoUsers = []
 
