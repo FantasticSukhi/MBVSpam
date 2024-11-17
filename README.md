@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="resources/RiZoeLX.png" alt="RiZoeLXSpam Logo">
+  <img src="resources/MBVSpameight.jpg" alt="MBVSPam Logo">
 </p>
 <h6 align="center">
   <b>• MBV Spammers •</b>
