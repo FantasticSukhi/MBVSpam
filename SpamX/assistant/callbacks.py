@@ -16,7 +16,7 @@ async def helpCallbacks(_, callback: CallbackQuery):
 
     if query == "reboot":
         await callback.answer("Rebooting SpamX.....", show_alert=True)
-        await callback.message.edit("__🔸 Rebooting SpamX.....__")
+        await callback.message.edit("__🔸 Rebooting MBVSpam.....__")
         await TheSpamX.reboot()
 
     elif query == "spam":
