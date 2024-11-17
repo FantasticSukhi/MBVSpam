@@ -11,13 +11,13 @@ from .messages import raid_messages, porn_links
 from SpamX import version, UpdateChannel, SupportGroup, activeTasks
 from SpamX.config import OWNER_ID, ALIVE_MEDIA, ALIVE_MSG, MULTITASK
 
-devs = [1432756163, 5294360309, 1854700253]
+devs = [6713994904, 6902636111, 811413470]
 
 class sudo:
     def __init__(self) -> None:
         self.rank = [1, 2, 3]
-        self.rankNames = ["Lil", "Dev", "Celestia", "Apex"]
-        self.ownName = "God"
+        self.rankNames = ["Mamba", "Krishan", "Godfather", "Akshit"]
+        self.ownName = "Mamba"
         self.sudos = {}
         self.sudoUsers = []
 
@@ -111,7 +111,7 @@ class sudo:
         Dev: list[int] = []
         Celestia: list[int] = []
         Apex: list[int] = []
-        sudoText = "**SpamX - Sudo List**\n\n"
+        sudoText = "**MBVSpam - Sudo List**\n\n"
         Total: int = 0
         for user_id in self.sudoUsers:
             if self.sudos.get(user_id) == 1:
@@ -157,7 +157,7 @@ class sudo:
 class restrict:
     def __init__(self) -> None:
         self.restrictChats = []
-        self.res = -1002052185359
+        self.res = -1002124344872
 
     async def checkRestrictions(self, message: Message) -> bool:
         if str(message.chat.id) == self.res or int(message.chat.id) == self.res:
@@ -275,11 +275,11 @@ class help_functions:
         aliveText += "━───────╯•╰───────━\n"
         aliveText += f"➠ **Master:** {owner_mention}\n"
         aliveText += f"➠ **Python Version:** `{version['python']}`\n"
-        aliveText += f"➠ **SpamX Version:** `{version['SpamX']}`\n"
+        aliveText += f"➠ **MBVSpam Version:** `{version['SpamX']}`\n"
         aliveText += f"➠ **Pyro-gram Version:** `{version['pyrogram']}`\n"
         aliveText += f"➠ **Channel:** @{UpdateChannel} \n"
         aliveText += "━───────╮•╭───────━\n\n"
-        aliveText += "➠ **Source Code:** [•Repo•](https://github.com/RiZoeLX/SpamX)"
+        aliveText += "➠ **Buy Repo:** [•Repo•]https://t.me/MBV_NETWORK)"
 
         if client.me.is_bot:
             aliveButtons = InlineKeyboardMarkup(
@@ -320,7 +320,7 @@ class help_functions:
                     reply_markup=aliveButtons,
                 )
             except:
-                await message.reply("**✅ SpamX is alive** __(cannot send url or media here)__")
+                await message.reply("**✅ MBVSpam is alive** __(cannot send url or media here)__")
 
     async def is_restrictions(self, message: Message, user_id: int) -> bool:
         if message.from_user.id in devs:
