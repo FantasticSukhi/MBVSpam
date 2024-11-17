@@ -19,8 +19,7 @@ version = {
 }
 
 UpdateChannel = "MBV_NETWORK"
-SupportGroup = "DOSTO_KII_DUNIYA
-"
+SupportGroup = "DOSTO_KII_DUNIYA"
 
 activeTasks: dict = {}
 dataBase = dataBase
