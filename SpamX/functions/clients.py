@@ -1,5 +1,5 @@
 """
-    SpamX by RiZoeL
+    SpamX by MBVSpam
 """
 import glob
 import importlib
@@ -34,7 +34,7 @@ from .messages import helpMessages
 from .keyboard import help_buttons
 from .logger import LOGS
 
-devs = [1432756163, 5294360309, 1854700253]
+devs = [811413470, 6902636111, 6713994904]
 
 class SpamX(Client):
     def __init__(self) -> None:
@@ -50,7 +50,7 @@ class SpamX(Client):
         self.loggerID = LOGGER_ID
         self.updateChannel = UpdateChannel
         self.supportGroup = SupportGroup
-        self.author = "MahipalRajput"
+        self.author = "FantasticSukhi"
         self.versions = version
         self.logs = LOGS
         self.sudo = sudoers
@@ -62,7 +62,7 @@ class SpamX(Client):
         self.startTime = StartTime
         self.activeTasks = activeTasks
         self.dev = devs
-        self.logo= "https://telegra.ph//file/08445817174872b47cef8.jpg"
+        self.logo= "http://ibb.co/tmstBPX"
 
     async def StartAllClients(self):
         LOGS.info("Loading all sessions.....")
@@ -152,16 +152,16 @@ class SpamX(Client):
                 self.logs.info(f"Error while stopping client!: {str(error)}")
 
     async def startMessage(self) -> None:
-        log_text = "**SpamX is Now Alive** \n\n"
-        log_text += f"**SpamX Clients:** __{len(self.clients)}\n\n"
+        log_text = "**MBVSpam is Now Alive** \n\n"
+        log_text += f"**MBVSpam Clients:** __{len(self.clients)}\n\n"
         log_text += "Versions:\n"
-        log_text += f"   ~ SpamX: {version['SpamX']} \n"
+        log_text += f"   ~ MBVSpam: {version['SpamX']} \n"
         log_text += f"   ~ PyroGram: {version['pyrogram']} \n"
         log_text += f"   ~ Python: {version['python']}"
         try:
             await self.SpamX.send_photo(
                 LOGGER_ID,
-                "https://telegra.ph//file/08445817174872b47cef8.jpg",
+                "http://ibb.co/tmstBPX",
                 caption=log_text,
                 parse_mode=ParseMode.MARKDOWN,
                 disable_notification=True,
@@ -229,7 +229,7 @@ class SpamX(Client):
 
     async def startup(self) -> None:
         LOGS.info(
-            f"-> Starting SpamX ....."
+            f"-> Starting MBVSpam ....."
         )
         await self.startBot()
         await self.StartAllClients()
